@@ -1,0 +1,102 @@
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.centro {
+  text-align: center;
+}
+
+.intro {
+  padding: 20px;
+  background: #FFF;
+}
+
+.info {
+  background: lightblue;
+  padding: 20px;
+}
+
+body {
+  background: url("../images/690.jpg");
+  background-position: center;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  padding: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+.footer {
+  padding: 0.625rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.topo, .topo img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  line-height: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.container section:nth-child(even) {
+  background: white;
+}
+
+.container section:nth-child(odd) {
+  background: lightblue;
+}
+
+aside.left {
+  float:left;
+}
+
+aside.right {
+  float:right;
+}
+
+aside {
+  margin-right: 20px;
+  margin-right: 20px;
+}
